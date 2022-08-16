@@ -1,0 +1,36 @@
+{%extends 'Principal.html' %}
+{%load static%}
+
+{%block title%}
+    noticias
+{%endblock%}
+
+{%block content%}
+    <div class="newsCards">
+        <div class="news">
+            <img src="{% static 'images/rodolfo.jpg' %}" class="images" alt="error">
+            <h3 class="title">Nueva polemica Rodolfo Hernadez</h3>
+            <div class="infoTitle"></div>
+        </div>
+
+        <div class="news">
+            <img src="{% static 'images/taiwan.jpg' %}" class="images" alt="error">
+            <h3 class="title">Taiwán responde a Xi y asegura que no se doblegará ante China</h3>
+            <div class="infoTitle"></div>
+        </div>
+
+        <div class="news">
+            <img src="{% static 'images/maduro.jpg' %}" class="images" alt="error">
+            <h3 class="title">Fraude en las elecciones venezuela 2021</h3>
+            <div class="infoTitle"></div>
+        </div>
+
+        <div class="news">
+            <img src="{% static 'images/images.jfif' %}" class="images" alt="error">
+            <h3 class="title">Continua la guerra en ucrania</h3>
+            <div class="infoTitle"></div>
+        </div>
+    </div>
+{%endblock%}
+
+
